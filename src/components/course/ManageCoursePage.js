@@ -61,7 +61,8 @@ ManageCoursePage.contextTypes ={
 ManageCoursePage.propTypes = {
   course: PropTypes.object.isRequired,
   authors: PropTypes.array.isRequired,
-  actions: PropTypes.object.isRequired
+  actions: PropTypes.object.isRequired,
+  loading: React.PropTypes.bool
 };
 
 function getCourseById(courses, id) {
